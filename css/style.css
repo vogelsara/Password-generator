@@ -1,6 +1,42 @@
-div{
+
+body{
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    color: darkred;
+    justify-content: center;
+    text-align: center;
+}
+
+#password-div{
     height: 2em;
     width: 10em;
-    border: 2px solid pink;
+    border: 2px solid darkgreen;
     margin: 2em;
+    padding-bottom: 1em;
+    text-align: center;
 }
+
+button{
+    background-color: rgb(21, 116, 25);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 1em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+#password-div, button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
